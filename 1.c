@@ -92,8 +92,11 @@ static unsigned int max_insts;
 /* level 1 instruction cache, entry level instruction cache */
 static struct cache_t *cache_il1 = NULL;
 
-/* level 1 instruction cache */
+/* level 2 instruction cache */
 static struct cache_t *cache_il2 = NULL;
+
+/* level 3 instruction cache */
+static struct cache_t *cache_il3 = NULL;
 
 /* level 1 data cache, entry level data cache */
 static struct cache_t *cache_dl1 = NULL;
